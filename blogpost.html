@@ -37,6 +37,9 @@
             git remote
             git remote -v
 
+            # podemos hacer un push, solo si el directorio en github no tiene ningun archivo 
+            git push origin master
+
             # Tercero: Traer la versión del repositorio remoto y
             # hacer merge para crear un commit con los archivos
             # de ambas partes. Podemos usar git fetch y git merge
@@ -46,6 +49,17 @@
             # Por último, ahora sí podemos hacer git push para guardar
             # los cambios de nuestro repositorio local en GitHub:
             git push origin master
+
+            # Para eliminar un remote utilizar Primero
+            git remote -v 
+            # para verificar los remote que tenemos y luego eliminar el deseado
+            git remote rm "nombre del remote"
+            # ha sido eliminado el remote
+        </p>
+        <h2>CLonar repositorios de Github</h2>
+        <p>
+            # Para clonar repositorios debemos utilizar lo siguiente
+            git clone "URL del repositorio"
         </p>
     </body>
 </html>
