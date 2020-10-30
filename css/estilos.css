@@ -3,3 +3,10 @@ body
     text-align: center;
     font-family: "Arial";
 }
+
+footer
+{
+    vertical-align: middle;
+    color: blueviolet;
+    font-size: 30px;
+}
