@@ -15,5 +15,15 @@
         <p>
             cuando creamos una rama, lo que hacemos es copiar el ultimo head del master, ahora podemos trabajar en una rama aparte y despues para integrarlo con el master debemos hacer un merge.
         </p>
+        <p>
+            # Crear un nuevo commit en la rama master combinando
+            # los cambios de la rama cabecera:
+            git checkout master
+            git merge cabecera
+            # Crear un nuevo commit en la rama cabecera combinando
+            # los cambios de cualquier otra rama:
+            git checkout cabecera
+            git merge cualquier-otra-rama
+        </p>
     </body>
 </html>
