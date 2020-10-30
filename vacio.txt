@@ -1,2 +1,5 @@
 Hola mundo!! soy miguel y tengo 26 años
 voy a colocar el primer commit
+
+Cosas que pasan
+
